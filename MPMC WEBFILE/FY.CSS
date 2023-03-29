@@ -1,47 +1,164 @@
 body {
-  background-image: url(path/to/college-background-image.jpg);
-  background-size: cover;
+  margin: 0;
+  padding: 0;
+  /*font-family: Arial, sans-serif;*/
+  font-family: Tahoma, sans-serif;
+  background-color: rgb(252, 250, 219);
 }
-
-header, footer {
-  background-color: #333;
+  
+  /* Header styles */
+header {
+  background-color:#831238/*#9e1c3f*/;
+  /*#831238*/
   color: #fff;
   text-align: center;
   padding: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+  
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+  
+header img {
+  display: block;
+  margin: 0 auto;
+}
+  
+  /* Lab info styles */
+.lab-info {
+  text-align: center;
+  padding: 20px;
+}
+  
+.lab-info h2 {
+  color: #831238;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+}
+.ff{
+  font-size: large;
+}
+.lab-info p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #831238;
 }
 
-.equipment h2{
-  text-decoration-line: underline;
-  text-decoration-style: double;
+.lab-info p strong{
+  font-size: 30px;
 }
-
 .lab-info img {
   width: 200px;
   height: 200px;
-  object-fit: cover;
   border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
-
-.equipment ul, .experiments ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  
+.lab-info p {
+  margin: 5px;
 }
-
-.equipment ul li:before {
-  content: "•";
-  color: #333;
+  
+.lab-info a {
+  color: #831238;
+  /* Add button styles */
   display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #831238;
+  border: 2px solid #831238;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+  
+.lab-info a:hover {
+  background-color: #831238;
+  color: #fff;
+  border-color: #fff;
+}
+  
+  /* Equipment styles */
+.equipment {
+  padding: 20px;
+}
+  
+.equipment h2 {
+  color: #831238;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
-.experiments ul li a {
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
+.equipment h3 {
+  color: #831238;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-content: center;
+  text-align: center;
+
+}
+  
+.equipment ul {
+  list-style: none;
+  padding-left: 0;
+}
+  
+.equipment li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+  
+  
+.equipment h4 {
+  margin-top: 0;
+  color: #831238;
+  text-transform: uppercase;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+  
+.equipment p {
+  margin-top: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+  
+.equipment a {
+  color: #ffffff;
+  /* Add button styles */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #831238;
+  color: #ffffff;
+  border: 2px solid #831238;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  text-decoration:none;
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+  
+.equipment a:hover {
+  background-color: #b82e5c;
+  color: #fff;
+  border-color: #fff;
 }
 
-.experiments ul li a:hover {
-  color: #f00;
+footer{
+  background-color: #831238;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
 }
