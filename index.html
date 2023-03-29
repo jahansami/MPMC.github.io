@@ -1,20 +1,185 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="FY.css">
-    <title>MICROPROCESSOR AND MICROCONTROLLER LAaaaB    </title>
+        <style>
+            body {
+  margin: 0;
+  padding: 0;
+  /*font-family: Arial, sans-serif;*/
+  font-family: Tahoma, sans-serif;
+  background-color: rgb(252, 250, 219);
+}
+  
+  /* Header styles */
+header {
+  background-color:#831238/*#9e1c3f*/;
+  /*#831238*/
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+  
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+  
+header img {
+  display: block;
+  margin: 0 auto;
+}
+  
+  /* Lab info styles */
+.lab-info {
+  text-align: center;
+  padding: 20px;
+}
+  
+.lab-info h2 {
+  color: #831238;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+}
+.ff{
+  font-size: large;
+}
+.lab-info p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #831238;
+}
+
+.lab-info p strong{
+  font-size: 30px;
+}
+.lab-info img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+  
+.lab-info p {
+  margin: 5px;
+}
+  
+.lab-info a {
+  color: #831238;
+  /* Add button styles */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #831238;
+  border: 2px solid #831238;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+  
+.lab-info a:hover {
+  background-color: #831238;
+  color: #fff;
+  border-color: #fff;
+}
+  
+  /* Equipment styles */
+.equipment {
+  padding: 20px;
+}
+  
+.equipment h2 {
+  color: #831238;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.equipment h3 {
+  color: #831238;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-content: center;
+  text-align: center;
+
+}
+  
+.equipment ul {
+  list-style: none;
+  padding-left: 0;
+}
+  
+.equipment li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+  
+  
+.equipment h4 {
+  margin-top: 0;
+  color: #831238;
+  text-transform: uppercase;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+  
+.equipment p {
+  margin-top: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+  
+.equipment a {
+  color: #ffffff;
+  /* Add button styles */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #831238;
+  color: #ffffff;
+  border: 2px solid #831238;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  text-decoration:none;
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+  
+.equipment a:hover {
+  background-color: #b82e5c;
+  color: #fff;
+  border-color: #fff;
+}
+
+footer{
+  background-color: #831238;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+          </style>       
+        <title>MICROPROCESSOR AND MICROCONTROLLER LAB    </title>
   </head>
   <body>
     <header>
       <img src="sathyabama.png" width="900" height="150" alt="sathyabama logo">
       <hr>
-      <h1>MICROPROCESSOR AND MICROCONTROLLER LAaaaB      </h1>
+      <h1>MICROPROCESSOR AND MICROCONTROLLER LAB      </h1>
     </header>
     <div class="lab-info">
       <h2>Lab In Charge</h2>
       <img src="lab incharge.jpg" alt="Lab In Charge Photo">
-      <p><strong>Name: S.Jahan</strong></p>
-      <p>Email : <a href="mailto:jahansami2001@gmail.com">jahansami2001@gmail.com </a></p>
+      <p>Name: S.Jahan </p>
+      <p>Email:<a href="mailto:jahansami2001@gmail.com">jahansami2001@gmail.com </a></p>
       <hr>
     </div>
     <div class="equipment">
@@ -24,11 +189,11 @@
           <h3>Experiment No: 1</h3>
           <h4>ADDITION OF TWO 8-BIT NUMBERS</h4>
           <p>
-            Description : 
+            Description of Experiment 1.<br><br>
             To write and execute an assembly language program to perform the addition 
             of two 8-bit numbers using 8085 Simulator.
             <br>
-            <center><a href="https://www.youtube.com/watch?v=jgBiWVLyFiA"  style="text-decoration:none" >Video</a></center>
+            <a href="https://www.youtube.com/watch?v=jgBiWVLyFiA">Watch the Experiment 1 Video</a>
           </p>
         </li>
         <hr>
@@ -36,10 +201,10 @@
           <h3>Experiment No: 2</h3>
           <h4>SUBTRACTION OF TWO 8-BIT NUMBERS</h4>
           <p>
-            Description : To write and execute a program to perform subtraction of two 8-bit numbers 
+            Description of Experiment 2.<br><br>To write and execute a program to perform subtraction of two 8-bit numbers 
             using 8085 Emulator.
             <br>
-            <center><a href="https://www.youtube.com/watch?v=frY9ojmgh4o"  style="text-decoration:none">Video</a></center>
+            <a href="https://www.youtube.com/watch?v=frY9ojmgh4o">Watch the Experiment 2 Video</a>
           </p>
         </li>
       </ul>
@@ -49,10 +214,10 @@
           <h3>Experiment No: 3</h3>
           <h4>MULTIPLICATION OF TWO 8-BIT NUMBERS</h4>
           <p>
-            Description : To write and execute an assembly language program to perform multiplication 
+            Description of Experiment 3.<br><br>To write and execute an assembly language program to perform multiplication 
             of two 8-bit numbers using 8085 Emulator.            
             <br>
-            <center><a href="https://www.youtube.com/watch?v=VIDEO_ID"  style="text-decoration:none">Video</a></center>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the Experiment 3 Video</a>
           </p>
         </li>
         <hr>
@@ -60,10 +225,10 @@
           <h3>Experiment No: 4</h3>
           <h4>DIVISION OF TWO 8-BIT NUMBERS</h4>
           <p>
-            Description : To write and execute an assembly language program to perform the division of 
+            Description of Experiment 4.<br><br>To write and execute an assembly language program to perform the division of 
             two 8-bit numbers using 8085 Emulator.            
             <br>
-            <center><a href="https://www.youtube.com/watch?v=VIDEO_ID"  style="text-decoration:none">Video</a></center>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the Experiment 4Video</a>
           </p>
         </li>
         <hr>
@@ -73,11 +238,11 @@
           <h3>Experiment No: 5</h3>
           <h4>CONVERTING A BCD NUMBER TO HEX NUMBER          </h4>
           <p>
-            Description :
+            Description of Experiment 5.<br><br>
             To write a program to convert BCD number in memory to the equivalent HEX 
             number using 8085 emulator.            
             <br>
-            <center><a href="https://www.youtube.com/watch?v=VIDEO_ID"  style="text-decoration:none">Video</a></center>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the Experiment 5 Video</a>
           </p>
         </li>
         <hr>
@@ -85,11 +250,11 @@
           <h3>Experiment No: 6</h3>
           <h4>CONVERTING HEXADECIMAL NUMBER TO BCD NUMBER          </h4>
           <p>
-            Description :
+            Description of Experiment 6.<br><br>
             To write a program to convert HEX numbers in memory to the equivalent BCD 
             number using 8085 emulator.
             <br>
-            <center><a href="https://www.youtube.com/watch?v=VIDEO_ID"  style="text-decoration:none">Video</a></center>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the Experiment 6 Video</a>
           </p>
         </li>
       </ul>
@@ -100,11 +265,11 @@
           <h4>CONVERTING HEXADECIMAL NUMBER TO ASCII 
           </h4>
           <p>
-            Description :
+            Description of Experiment 7.<br><br>
             To write a program to convert HEX numbers in memory to the equivalent ADCII 
             using 8085 emulator.
             <br>
-            <center><a href="https://www.youtube.com/watch?v=VIDEO_ID"  style="text-decoration:none">Video</a></center>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the Experiment 7 Video</a>
           </p>
         </li>
         <hr>
@@ -112,11 +277,11 @@
           <h3>Experiment No: 8</h3>
           <h4>CONVERTING ASCII TO HEXADECIMAL NUMBER          </h4>
           <p>
-            Description :
+            Description of Experiment 8.<br><br>
             To write a program to convert HEX numbers in memory to the equivalent ASCII 
             using 8085 emulator.            
             <br>
-            <center><a href="https://www.youtube.com/watch?v=VIDEO_ID"  style="text-decoration:none">Video</a></center>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the Experiment 8Video</a>
           </p>
         </li>
       </ul>
@@ -125,22 +290,22 @@
         <li>
           <h3>Experiment No: 9</h3>
           <h4>LARGEST OF A GIVEN SET OF NUMBERS          </h4>
-          <p>Description :
+          <p>
             To write and execute a program to search the largest of a given set of array of 
             numbers using 8085 emulator.            
             <br>
-            <center><a href="https://www.youtube.com/watch?v=VIDEO_ID"  style="text-decoration:none">Video</a></center>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the Experiment 9 Video</a>
           </p>
         </li>
         <hr>
         <li>
           <h3>Experiment No: 10</h3>
           <h4>SMALLEST OF A GIVEN SET OF NUMBERS          </h4>
-          <p>Description :
+          <p>  
             To write and execute program to search the smallest of a given set of array of 
             numbers using 8085 emulator.
             <br>
-            <center><a href="https://www.youtube.com/watch?v=VIDEO_ID"  style="text-decoration:none">Video</a></center>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the Experiment 10 Video</a>
           </p>
         </li>
       </ul>
@@ -150,11 +315,11 @@
           <h3>Experiment NO: 11</h3>
           <h4>ARRANGING A GIVEN SET OF NUMBERS IN ASCENDING ORDER          </h4>
           <p>
-            Description :
+            Description of Experiment 11.<br><br> 
             To write and execute program to arrange a given array of numbers in 
             ascending orderusing 8085 emulator.             
             <br>
-            <center><a href="https://www.youtube.com/watch?v=VIDEO_ID"  style="text-decoration:none">Video</a></center>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the Experiment 11 Video</a>
           </p>
         </li>
         <hr>
@@ -162,19 +327,18 @@
           <h3>Experiment NO: 12</h3>
           <h4>ARRANGING A GIVEN SET OF NUMBERS IN DESCENDING ORDER          </h4>
           <p>
-            Description : 
+            Description of Experiment 12.<br><br>
             To write and execute program to arrange a given set of array of numbers in 
             descending order using 8085 emulator.
             <br>
-            <center><a href="https://www.youtube.com/watch?v=VIDEO_ID"  style="text-decoration:none">Video</a></center>
+            <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the Experiment 12 Video</a>
           </p>
         </li>
       </ul>
       <hr>        
     </div>
     <footer>
-     <!-- <marquee>Copyright © [2023] [Jahan]</marquee> -->
-      <p>Copyright © [2023] [Jahan]</p>     
+      <p>Copyright © [2023] [Jahan]</p>
     </footer>
   </body>
 </html>
